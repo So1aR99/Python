@@ -1,0 +1,11 @@
+list1 = [[1, 2], [1, 2, 3], [1, 2, 3, 4]]
+print(list1[0])
+print(list1[0][0])
+print(list1[0][1])
+print(list1[1][0])
+print(list1[1][1])
+print(list1[1][2])
+print(list1[2][0])
+print(list1[2][1])
+print(list1[2][2])
+print(list1[2][3])

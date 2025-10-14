@@ -20,4 +20,10 @@ network = list(map(lambda x: x > 0.6, [0.1, 0.7, 0.8, 0.3, 0.9, 1.0]))
 print(network)
 
 network2 = list(filter(lambda x: x > 0.6, [0.1, 0.7, 0.8, 0.3, 0.9, 1.0]))
+
 print(network2)
+
+# 파일 처리
+NT2_file = open("network2_data.txt", 'w', encoding='utf-8')
+NT2_file.write(str(network2))
+NT2_file.close()

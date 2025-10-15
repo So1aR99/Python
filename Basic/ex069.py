@@ -1,0 +1,27 @@
+class Student:
+    def __init__(self, name, korean, math, english, science):
+        self.name = name
+        self.korean = korean
+        self.math = math
+        self.english = english
+        self.science = science
+    def __del__(self):
+        print("파괴자")
+
+karl = Student(name="KarL", math=100, korean=90, english=100, science=100)
+print(karl.math)
+
+students = [
+    Student("윤인성", 87, 98, 88, 95),
+    Student("연하진", 92, 98, 96, 98),
+    Student("구지연", 76, 96, 94, 90),
+    Student("나선주", 98, 92, 96, 92),
+    Student("윤아린", 95, 98, 98, 98),
+    Student("윤명월", 64, 88, 92, 92)
+]
+
+students[0].name
+students[0].korean
+students[0].math
+students[0].english
+students[0].science
